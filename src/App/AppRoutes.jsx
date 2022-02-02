@@ -2,11 +2,13 @@ import React from 'react'
 import { Route, Routes } from 'react-router-dom'
 import Work from './Work'
 import About from './About'
-import TTLPage from './Work/TTLPage'
+import EmpHistoryPage from './Work/EmpHistoryPage'
+import IkigaiPage from './Work/IkigaiPage'
 import {
   rootPath,
   aboutPath,
-  ttlPath
+  empHistoryPath,
+  ikigaiPath
 } from '../shared/constants/routes'
 
 const AppRoutes = () => {
@@ -14,7 +16,8 @@ const AppRoutes = () => {
     <Routes>
       <Route path={rootPath} element={<Work />} />
       <Route path={aboutPath} element={<About />} />
-      <Route path={ttlPath} element={<TTLPage />} />
+      <Route path={empHistoryPath} element={<EmpHistoryPage />} />
+      <Route path={ikigaiPath} element={<IkigaiPage />} />
     </Routes>
   )
 }

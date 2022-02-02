@@ -11,14 +11,6 @@ interface SelectorProps {
   selected: boolean
 }
 
-export const Headline = styled.div`
-  padding: 4rem 2rem;
-  font-size: 1.5rem;
-  text-align: center;
-  color: #48494D;
-  font-family: monospace;
-`
-
 export const SelectorNav = styled.div`
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));

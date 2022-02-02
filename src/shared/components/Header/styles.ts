@@ -7,7 +7,7 @@ export const Header = styled.header<ContentSchemeProps>`
   background-repeat: no-repeat;
   background-color: ${props => props.backgroundColor};
   background-image: ${props => props.image ? `url(${props.image})` : 'none'};
-  min-height: ${props => props.$fullPageDisplay ? '100vh' : '20vh'};
+  min-height: ${props => props.$fullPageDisplay ? '100vh' : '5vh'};
   color: ${props => props.color};
   background-position: left;
   font-size: 1.5rem;
@@ -99,14 +99,14 @@ export const MenuButton = styled.button<ContentSchemeProps & DisplayProps>`
 
 export const HamburgerIcon = styled(FaBars)`
   position: absolute;
-  z-index: 100;
+  z-index: 99;
   top: 1rem;
   right: 1rem;
 `
 
 export const CancelIcon = styled(FaRegTimesCircle)`
   position: fixed;
-  z-index: 100;
+  z-index: 99;
   top: 1rem;
   right: 1rem;
 `

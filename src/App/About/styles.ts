@@ -3,6 +3,7 @@ import { ContentSchemeProps } from '../../shared/models/HeaderFooterTypes'
 
 export const TextAreaSection = styled.section`
   font-family: papyrus, monaco;
+  padding-bottom: 10rem;
 
   & h4 {
     font-size: 1.5rem;

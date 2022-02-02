@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 import StyledHeader from '../../shared/components/Header'
 import StyledFooter from '../../shared/components/Footer'
-import { Headline } from './styles'
+import { Outline } from '../../shared/utils/styles'
 import ShowCategory from './ShowCategory'
 import ShowSelectorNav from './ShowSelectorNav'
 import { personShadow } from '..'
@@ -25,10 +25,10 @@ const Work = () => {
         image={personShadow}
         caption={headerCaption}
       />
-      <Headline>
+      <Outline>
         <p> My portfolio is just a list of things I hope you never ask me to do.... LOL
         I am out of bed and dressed. What more do you want? </p>
-      </Headline>
+      </Outline>
       <ShowSelectorNav currentCategory={currentCategory} chooseCategory={chooseCategory} />
       <ShowCategory currentCategory={currentCategory} />
       <StyledFooter backgroundColor={footerColor} footerContents={profFooterContents}/>
