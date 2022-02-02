@@ -22,6 +22,7 @@ export const Svg = styled.svg<SideBarActiveI>`
 export const Path = styled.path`
   stroke: #2A3734;
   stroke-width: 0.2;
+  cursor: pointer;
 
   &:hover {
     fill: #800000;
