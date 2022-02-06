@@ -26,6 +26,7 @@ const Work = () => {
         caption={headerCaption}
       />
       <Outline>
+        <h1>Heading</h1>
         <p> My portfolio is just a list of things I hope you never ask me to do.... LOL
         I am out of bed and dressed. What more do you want? </p>
       </Outline>

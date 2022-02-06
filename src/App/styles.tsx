@@ -3,7 +3,7 @@ import { createGlobalStyle } from 'styled-components'
 export const GlobalStyle = createGlobalStyle`
   body {
     margin: 0;
-    font-family: 'Courier New', Courier, monospace;
+    font-family: 'Courier New', Courier;
     color: white;
   }
 `

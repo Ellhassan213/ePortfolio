@@ -6,9 +6,9 @@ import ikigai from '../../shared/assets/images/ikigai.png'
 import { CategoryI } from './models/workCategory'
 import {
   empHistoryPath,
-  academicConsultingPath,
   personalShoppingPath,
-  ikigaiPath
+  ikigaiPath,
+  ACSPath
 } from '../../shared/constants/routes'
 
 export const headerCaption = `Whatever you do, ask yourself...
@@ -16,7 +16,7 @@ export const headerCaption = `Whatever you do, ask yourself...
   or is this only in my best interest?"`
 
 export const categories: CategoryI = {
-  me: [
+  personal: [
     {
       name: 'My Ikigai',
       link: ikigaiPath,
@@ -30,14 +30,12 @@ export const categories: CategoryI = {
       image: menAtWork
     }
   ],
-  consulting: [
+  services: [
     {
-      name: 'Academic Consulting',
-      link: academicConsultingPath,
+      name: 'Academic Consulting and Services',
+      link: ACSPath,
       image: gradStudent
-    }
-  ],
-  shopping: [
+    },
     {
       name: 'Personal Shopping',
       link: personalShoppingPath,

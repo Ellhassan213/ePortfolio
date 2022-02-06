@@ -5,5 +5,5 @@ padding: 4rem 2rem;
 font-size: 1.5rem;
 text-align: center;
 color: #48494D;
-font-family: monospace;
+font-family: helvetica, times, monospace;
 `

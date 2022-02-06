@@ -4,11 +4,13 @@ import Work from './Work'
 import About from './About'
 import EmpHistoryPage from './Work/EmpHistoryPage'
 import IkigaiPage from './Work/IkigaiPage'
+import ACSPage from './Work/ACSPage'
 import {
   rootPath,
   aboutPath,
   empHistoryPath,
-  ikigaiPath
+  ikigaiPath,
+  ACSPath
 } from '../shared/constants/routes'
 
 const AppRoutes = () => {
@@ -18,6 +20,7 @@ const AppRoutes = () => {
       <Route path={aboutPath} element={<About />} />
       <Route path={empHistoryPath} element={<EmpHistoryPage />} />
       <Route path={ikigaiPath} element={<IkigaiPage />} />
+      <Route path={ACSPath} element={<ACSPage />} />
     </Routes>
   )
 }
