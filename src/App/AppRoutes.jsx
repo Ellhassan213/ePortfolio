@@ -5,12 +5,14 @@ import About from './About'
 import EmpHistoryPage from './Work/EmpHistoryPage'
 import IkigaiPage from './Work/IkigaiPage'
 import ACSPage from './Work/ACSPage'
+import EducationPage from './Work/EducationPage'
 import {
   rootPath,
   aboutPath,
   empHistoryPath,
   ikigaiPath,
-  ACSPath
+  ACSPath,
+  educationPath
 } from '../shared/constants/routes'
 
 const AppRoutes = () => {
@@ -21,6 +23,7 @@ const AppRoutes = () => {
       <Route path={empHistoryPath} element={<EmpHistoryPage />} />
       <Route path={ikigaiPath} element={<IkigaiPage />} />
       <Route path={ACSPath} element={<ACSPage />} />
+      <Route path={educationPath} element={<EducationPage />} />
     </Routes>
   )
 }

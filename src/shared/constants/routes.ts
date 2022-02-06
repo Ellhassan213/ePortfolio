@@ -6,6 +6,7 @@ export const personalShoppingPath = '/work/personal-shopping'
 export const empHistoryPath = '/work/employment-history'
 export const ikigaiPath = '/work/ikigai'
 export const ACSPath = '/work/ACS'
+export const educationPath = '/work/education'
 
 export const ttlPath = '/work/tata-technologies'
 export const rlePath = '/work/rle-futuremotiv'

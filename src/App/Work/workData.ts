@@ -1,14 +1,14 @@
 import menAtWork from '../../shared/assets/images/menAtWork.png'
 import gradStudent from '../../shared/assets/images/gradStudent.png'
-import pShopping from '../../shared/assets/images/pShopping.png'
 import ikigai from '../../shared/assets/images/ikigai.png'
+import books from '../../shared/assets/images/books.png'
 
 import { CategoryI } from './models/workCategory'
 import {
   empHistoryPath,
-  personalShoppingPath,
   ikigaiPath,
-  ACSPath
+  ACSPath,
+  educationPath
 } from '../../shared/constants/routes'
 
 export const headerCaption = `Whatever you do, ask yourself...
@@ -23,7 +23,12 @@ export const categories: CategoryI = {
       image: ikigai
     }
   ],
-  employment: [
+  career: [
+    {
+      name: 'Education',
+      link: educationPath,
+      image: books
+    },
     {
       name: 'Employment History',
       link: empHistoryPath,
@@ -35,11 +40,6 @@ export const categories: CategoryI = {
       name: 'Academic Consulting and Services',
       link: ACSPath,
       image: gradStudent
-    },
-    {
-      name: 'Personal Shopping',
-      link: personalShoppingPath,
-      image: pShopping
     }
   ]
 }

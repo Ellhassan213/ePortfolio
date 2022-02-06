@@ -1,5 +1,4 @@
 import styled from 'styled-components'
-import bgImg from '../../../shared/assets/images/background.png'
 import { SideBarActiveI } from '../../../shared/components/SideBar/index'
 
 export const Grid = styled.div<SideBarActiveI>`
@@ -27,7 +26,7 @@ export const Grid = styled.div<SideBarActiveI>`
     padding: 20px;
     font-size: 30px;
     border-radius: 5px;
-    background-image: url(${bgImg});
+    background-image: linear-gradient(to bottom right, black, blue);
 
     &:hover {
       font-weight: bold;
