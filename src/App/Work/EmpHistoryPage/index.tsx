@@ -5,6 +5,7 @@ import { Outline } from '../../../shared/utils/styles'
 import { Grid } from './styles'
 import StyledSideBar from '../../../shared/components/SideBar'
 import { companies } from './empHistoryData'
+import ContactMeForm from '../../../shared/components/ContactMeForm'
 
 interface EmpHistoryI {
   name: string,
@@ -45,6 +46,7 @@ const EmpHistoryPage = () => {
           )
         })}
       </Grid>
+      <ContactMeForm />
       <StyledFooter backgroundColor='#060113'/>
       {
         isSideBar &&

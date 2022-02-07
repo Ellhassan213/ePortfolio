@@ -3,6 +3,7 @@ import StyledHeader from '../../../shared/components/Header'
 import { EduContainer } from './styles'
 import { Outline } from '../../../shared/utils/styles'
 import { eduData } from './educationData'
+import ContactMeForm from '../../../shared/components/ContactMeForm'
 
 const EducationPage = () => {
   return (
@@ -27,6 +28,7 @@ const EducationPage = () => {
         </EduContainer>
       )
     })}
+    <ContactMeForm />
     </>
   )
 }
