@@ -1,6 +1,7 @@
 import React, { ChangeEvent, FocusEvent, SyntheticEvent, useState } from 'react'
 import { Form, Label, Input, TextArea, SendButton, FormContainer, ContactMeMsg, InputErrMsg } from './styles'
 import formValidations, { validateForm } from '../../utils/FormValidations'
+import { ContactMeFormI } from './models'
 
 const formInitials = {
   name: '',
@@ -8,7 +9,7 @@ const formInitials = {
   message: ''
 }
 
-const ContactMeForm = () => {
+const ContactMeForm = ({ backgroundColor }: ContactMeFormI) => {
   const [formInputs, setFormInputs] = useState(formInitials)
   const [formInputsErr, setFormInputsErr] = useState(formInitials)
   const [isSubmitting, setIsSubmitting] = useState(false)
@@ -44,9 +45,9 @@ const ContactMeForm = () => {
       setIsSubmitting(true)
       setTimeout(() => {
         console.log('Submitted')
-        console.log('Form Valid: ' + formValid)
+        alert('Form Valid: ' + formValid)
         setIsSubmitting(false)
-      }, 3000)
+      }, 1000)
     } else {
       alert('Errors in form, please make sure all fields are populated')
     }
@@ -54,7 +55,7 @@ const ContactMeForm = () => {
   }
 
   return (
-    <FormContainer>
+    <FormContainer backgroundColor={backgroundColor}>
       <Form onSubmit={handleSubmit}>
         <div><h1>Woah, you wanna get in touch!</h1></div>
         <p>
@@ -107,6 +108,10 @@ const ContactMeForm = () => {
       </ContactMeMsg>
     </FormContainer>
   )
+}
+
+ContactMeForm.defaultProps = {
+  backgroundColor: 'gray'
 }
 
 export default ContactMeForm

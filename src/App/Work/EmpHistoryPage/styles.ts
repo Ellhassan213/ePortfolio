@@ -7,7 +7,7 @@ export const Grid = styled.div<SideBarActiveI>`
   grid-auto-rows: minmax(400px, 1fr);
   grid-auto-flow: dense;
   color: #48494D;
-  padding: 10px 2px;
+  padding: 1rem 5rem;
   grid-gap: 2px;
   justify-content: center;
   margin-left: ${props => props.isSideBar ? '50%' : '0'};
@@ -26,21 +26,17 @@ export const Grid = styled.div<SideBarActiveI>`
     padding: 20px;
     font-size: 30px;
     border-radius: 5px;
-    background-image: linear-gradient(to bottom right, black, blue);
+    background: white;
+    border: 2px solid #060113;
 
     &:hover {
       font-weight: bold;
-      color: white;
+      color: #060113;
+      background-image: linear-gradient(to bottom right, white, gray);
     }
   }
 
   @media screen and (max-width: 50em) {
     margin-left: 0;
   }
-`
-
-export const EmployMe = styled.div`
-  background-color: #060113;
-  padding: 1rem;
-  /* box-shadow: 5px 5px 10px 2px rgba(0,0,0,.8); */
 `

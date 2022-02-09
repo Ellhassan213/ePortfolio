@@ -9,10 +9,14 @@ export const EduContainer = styled.div`
   font-weight: lighter;
   line-height: 1.5;
   padding: 1rem 15rem;
-  /* background-color: black; */
+  /* background-color: #B1A296; */
 
   & h3, h4 {
     margin: 0;
+  }
+
+  & h4 {
+    color: #D83F87;
   }
 
   @media screen and (max-width: 50em) {

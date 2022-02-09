@@ -19,7 +19,7 @@ const IkigaiPage = () => {
 
   return (
     <>
-    <StyledHeader />
+    <StyledHeader backgroundColor='maroon'/>
     <PageContainer>
       <Ikigai isSideBar={isSideBar} showSideBar={showSideBar}/>
     </PageContainer>

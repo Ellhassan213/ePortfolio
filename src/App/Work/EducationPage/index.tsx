@@ -1,5 +1,6 @@
 import React from 'react'
 import StyledHeader from '../../../shared/components/Header'
+import StyledFooter from '../../../shared/components/Footer'
 import { EduContainer } from './styles'
 import { Outline } from '../../../shared/utils/styles'
 import { eduData } from './educationData'
@@ -8,7 +9,7 @@ import ContactMeForm from '../../../shared/components/ContactMeForm'
 const EducationPage = () => {
   return (
     <>
-    <StyledHeader />
+    <StyledHeader backgroundColor='#2A1B3D'/>
     <Outline>
       <h1>Education</h1>
       <p>Bla bla bla...</p>
@@ -28,7 +29,8 @@ const EducationPage = () => {
         </EduContainer>
       )
     })}
-    <ContactMeForm />
+    <ContactMeForm backgroundColor='#D83F87'/>
+    <StyledFooter backgroundColor='#2A1B3D'/>
     </>
   )
 }

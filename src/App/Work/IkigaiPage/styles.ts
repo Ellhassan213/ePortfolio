@@ -25,7 +25,7 @@ export const Path = styled.path`
   cursor: pointer;
 
   &:hover {
-    fill: #800000;
+    fill: maroon;
   }
 `
 

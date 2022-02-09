@@ -1,6 +1,7 @@
 import styled from 'styled-components'
+import { ContactMeFormI } from './models'
 
-export const FormContainer = styled.div`
+export const FormContainer = styled.div<ContactMeFormI>`
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   grid-auto-rows: auto;
@@ -10,18 +11,18 @@ export const FormContainer = styled.div`
   line-height: 1.5;
   padding: 5rem 5rem;
   align-items: center;
-  /* background-color: beige; */
+  background: linear-gradient(to bottom right, white, ${props => props.backgroundColor});
 
-  @media screen and (max-width: 50em) {
+  /* @media screen and (max-width: 50em) {
     padding: 5rem 1rem;
-  }
+    margin: auto;
+  } */
 `
 
 export const Form = styled.form`
   /* margin: 1rem 0; */
   padding: 1rem;
   border: 2px solid gray;
-  /* background-color: white; */
   width: 18rem;
 `
 
@@ -31,13 +32,11 @@ export const Label = styled.label`
 `
 
 export const Input = styled.input`
-  color: blue;
   padding: 0.5rem;
   width: 11.5rem;
 `
 
 export const TextArea = styled.textarea`
-  color: blue;
   width: 17.25rem;
   height: 10rem;
 `
@@ -57,6 +56,7 @@ export const SendButton = styled.input`
 
   &:hover {
     box-shadow: none;
+    font-weight: bold;
   }
 `
 

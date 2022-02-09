@@ -1,7 +1,9 @@
 import React from 'react'
 import StyledHeader from '../../../shared/components/Header'
+import StyledFooter from '../../../shared/components/Footer'
 import { ACSBodyContainer, HeadingContainer, CircularListItem, HeadingTitle, Content } from './styles'
 import { Outline } from '../../../shared/utils/styles'
+import ContactMeForm from '../../../shared/components/ContactMeForm'
 
 const ACSPage = () => {
   return (
@@ -101,6 +103,8 @@ const ACSPage = () => {
         </p>
       </Content>
     </ACSBodyContainer>
+    <ContactMeForm backgroundColor='olive'/>
+    <StyledFooter backgroundColor='#301934'/>
     </>
   )
 }
