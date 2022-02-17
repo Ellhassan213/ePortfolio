@@ -4,26 +4,19 @@ import { TextAreaSection } from './styles'
 const TextArea = () => {
   return (
     <TextAreaSection>
-      <h4>Hi, I am Lawal. A Software Engineer based in the UK.</h4>
+      <h4>Hi, I am Lawal. An Engineer and Enterpreneur based in the UK.</h4>
       <p>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-        quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-        Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
-        fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident,
-        sunt in culpa qui officia deserunt mollit anim id est laborum
+        On here, you will find loads about me, what I do and things I am looking
+        to get into for the future. I talk about Enterpreneurship, Philanthropy,
+        Education Systems and Technology.
       </p>
       <p>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-        quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-        Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
-        fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident,
-        sunt in culpa qui officia deserunt mollit anim id est laborum.
+        Join me on this journey and paint a great future for us and betterment of
+        everybody.
       </p>
-      <p> Please feel free to contact me. Would be lovely to hear from you.</p>
-      <p>Email: Ellhassan213@gmail.com</p>
-      <p>Phone: +447471420434 </p>
+      <p> Please feel free to contact me, would be lovely to hear from you.</p>
+      <p>Email: <a href="mailto:Ellhassan213@gmail.com">Ellhassan213@gmail.com</a></p>
+      <p>Phone: <a href="tel:+447471420434">+447471420434</a></p>
     </TextAreaSection>
   )
 }

@@ -12,7 +12,11 @@ const EducationPage = () => {
     <StyledHeader backgroundColor='#2A1B3D'/>
     <Outline>
       <h1>Education</h1>
-      <p>Bla bla bla...</p>
+      <p>
+        What do you think about the traditional education system,
+        would you ditch University degrees for online courses and bootcamps?
+        Would you employ someone that&apos;s made that decision?
+      </p>
     </Outline>
     {eduData.map((education, index) => {
       return (

@@ -29,6 +29,11 @@ const IkigaiPage = () => {
         <>
         <h1>{sideBarDetails?.title}</h1>
         <p>{sideBarDetails?.description}</p>
+        {sideBarDetails?.list?.map((item, index) => (
+          <ul key={index}>
+            <li>{item}</li>
+          </ul>
+        ))}
         </>
       </StyledSideBar>
     }

@@ -13,10 +13,10 @@ export const FormContainer = styled.div<ContactMeFormI>`
   align-items: center;
   background: linear-gradient(to bottom right, white, ${props => props.backgroundColor});
 
-  /* @media screen and (max-width: 50em) {
+  @media screen and (max-width: 50em) {
     padding: 5rem 1rem;
     margin: auto;
-  } */
+  }
 `
 
 export const Form = styled.form`

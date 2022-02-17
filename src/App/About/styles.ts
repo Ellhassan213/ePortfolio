@@ -7,7 +7,16 @@ export const TextAreaSection = styled.section`
   font-weight: lighter;
 
   & h4 {
-    font-size: 1.5rem;
+    font-size: 2.5rem;
+  }
+
+  & a {
+    text-decoration: none;
+    color: gray;
+
+    &:hover {
+      font-weight: bold;
+    }
   }
 `
 
@@ -24,6 +33,6 @@ export const AboutContainer = styled.div<ContentSchemeProps>`
   color: ${props => props.color};
 
   @media screen and (max-width: 50em) {
-    padding: 1rem;
+    padding: 5rem 1rem;
   }
 `

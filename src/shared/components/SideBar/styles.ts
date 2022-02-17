@@ -6,7 +6,7 @@ export const SideBar = styled.div`
   position: fixed;
   font-size: 0.9rem;
   width: 50%;
-  background-color: rgba(0, 0, 0, 0.95);
+  background-color: rgba(100, 0, 0, 0.95);
   left: 0;
   top: 0;
   right: 0;
@@ -17,6 +17,12 @@ export const SideBar = styled.div`
 
   & p, h1, h2, h3 {
     padding: 0 1rem;
+  }
+
+  & p, ul {
+    font-family: helvetica, times;
+    font-weight: lighter;
+    line-height: 1.5;
   }
 
   @media screen and (max-width: 50em) {

@@ -11,8 +11,8 @@ import {
   educationPath
 } from '../../shared/constants/routes'
 
-export const headerCaption = `Whatever you do, ask yourself...
-  "Am I helping others and bringing good into their lives,
+export const headerCaption = `Whatever you do, ask yourself this...
+  "Am I helping others, bringing them along with good intent,
   or is this only in my best interest?"`
 
 export const categories: CategoryI = {

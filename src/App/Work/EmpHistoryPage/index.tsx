@@ -2,7 +2,7 @@ import React, { useState } from 'react'
 import StyledHeader from '../../../shared/components/Header'
 import StyledFooter from '../../../shared/components/Footer'
 import { Outline } from '../../../shared/utils/styles'
-import { Grid } from './styles'
+import { Grid, JobFunction, JobAchievement } from './styles'
 import StyledSideBar from '../../../shared/components/SideBar'
 import { companies } from './empHistoryData'
 import ContactMeForm from '../../../shared/components/ContactMeForm'
@@ -11,10 +11,11 @@ interface EmpHistoryI {
   name: string,
   acronym: string,
   image?: string,
-  fromDate: Date,
-  toDate: Date,
+  fromDate: string,
+  toDate: string,
   role: string,
-  function: string
+  function: string,
+  achievements?: string
 }
 
 const EmpHistoryPage = () => {
@@ -36,7 +37,11 @@ const EmpHistoryPage = () => {
       {
         !isSideBar &&
         <Outline>
-          <p>I have a total of x-years experience. Take a deep dive!</p>
+          <p>
+            Don&apos;t worry about being SUCCESSFUL but work toward being
+            SIGNIFICANT and the success will naturally follow
+          </p>
+          <p> - Oprah Winfrey</p>
         </Outline>
       }
       <Grid isSideBar={isSideBar}>
@@ -54,9 +59,12 @@ const EmpHistoryPage = () => {
           <>
             {/* <img src={sideBarDetails?.image} /> */}
             <h1>{sideBarDetails?.name}</h1>
-            <h3>{sideBarDetails?.fromDate.toDateString()} - {sideBarDetails?.toDate.toDateString()}</h3>
+            <h3>{sideBarDetails?.fromDate} - {sideBarDetails?.toDate}</h3>
             <h2>{sideBarDetails?.role}</h2>
-            <p>{sideBarDetails?.function}</p>
+            <JobFunction>{sideBarDetails?.function}</JobFunction>
+            {sideBarDetails?.achievements &&
+              <p> <JobAchievement>Achievements:</JobAchievement> {sideBarDetails?.achievements}</p>
+            }
           </>
         </StyledSideBar>
       }

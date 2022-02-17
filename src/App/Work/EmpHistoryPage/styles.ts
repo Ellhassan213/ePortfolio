@@ -40,3 +40,11 @@ export const Grid = styled.div<SideBarActiveI>`
     margin-left: 0;
   }
 `
+export const JobFunction = styled.p`
+  color: aqua;
+`
+
+export const JobAchievement = styled.span`
+  color: teal;
+  font-weight: bold;
+`

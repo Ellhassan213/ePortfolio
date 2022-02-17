@@ -3,8 +3,9 @@ import { Svg, Path, BigText, SmallText } from './styles'
 import { ikigaiInfo } from './ikigaiData'
 
 export interface IkigaiInfoI {
-  title: string,
-  description: string
+  title?: string,
+  description?: string,
+  list?: string[]
 }
 
 interface IkigaiPropsI {

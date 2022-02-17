@@ -22,15 +22,15 @@ const ACSPage = () => {
       </HeadingContainer>
       <Content>
         <p>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-          Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-          Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-          Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+          I can help you on your journey to the UK. I have been through
+          it myself, so I know exactly how to make sure it goes smoothly
+          for you. These are what I can help you with:
         </p>
         <ul>
-          <li>Coffee</li>
-          <li>Tea</li>
-          <li>Milk</li>
+          <li>University and Course Matching.</li>
+          <li>Admissions Processing.</li>
+          <li>Visa Counselling.</li>
+          <li>Sourcing of Accomodation.</li>
         </ul>
       </Content>
 
@@ -39,23 +39,19 @@ const ACSPage = () => {
         <HeadingTitle><h2>Career Mentorship</h2></HeadingTitle>
       </HeadingContainer>
       <Content>
-        <p>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-          Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-          Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-          Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-        </p>
         <ul>
-          <li>Coffee</li>
-          <li>Tea</li>
-          <li>Milk</li>
+          <li>First things first, let me help you define your career goals.</li>
+          <li>
+            We will constantly review this to make sure you are on track
+            and make necessary adjustments if need be.
+          </li>
+          <li>
+            I have good methods and insights that will help you make
+            specific decision regarding your career. Remember, every
+            decision you make today will have long lasting effects, so
+            you want to make sure you make the right ones.
+          </li>
         </ul>
-        <p>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-          Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-          Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-          Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-        </p>
       </Content>
 
       <HeadingContainer>
@@ -64,10 +60,9 @@ const ACSPage = () => {
       </HeadingContainer>
       <Content>
         <p>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-          Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-          Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-          Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+          This is something in the works I am developing to help sponsoring
+          bodies to collect, maintain and analyse student data. More to come on
+          this in the future.
         </p>
       </Content>
 
@@ -76,18 +71,11 @@ const ACSPage = () => {
         <HeadingTitle> <h2>Social Platform</h2> </HeadingTitle>
       </HeadingContainer>
       <Content>
-        <p>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-          Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-          Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-          Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-        </p>
-        <p>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-          Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-          Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-          Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-        </p>
+        Let&apos;s get together here, form groups and collaboartions
+        socially and professionally. We shall make events happen,
+        travel together and just have a good time. We shall also form
+        strong partnerships in business ventures and research.
+        I will kickstart this soon, so signup and keep your eyes peeled.
       </Content>
 
       <HeadingContainer>
@@ -96,10 +84,11 @@ const ACSPage = () => {
       </HeadingContainer>
       <Content>
         <p>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-          Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-          Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-          Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+          This is an academy that teaches Engineering, Life Skills and
+          Enterpreneurship. At our academy, we challenge traditional
+          educational and professional career routes. We believe our
+          methods will produce real and tangible result. Results that
+          build people and societies.
         </p>
       </Content>
     </ACSBodyContainer>

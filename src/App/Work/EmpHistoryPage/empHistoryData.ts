@@ -8,44 +8,60 @@ export const companies = [
     name: 'RLE Futuremotiv',
     acronym: 'RLE',
     image: rlefm,
-    fromDate: new Date('December 20, 2020'),
-    toDate: new Date(Date.now()),
+    fromDate: 'November 2020',
+    toDate: 'Present',
     role: 'System Integration and Controls Development Engineer',
-    function: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.'
+    function: 'Vehicle Networks, Braking and Air Suspension Systems',
+    achievements: `Network Architect for the Volta Trucks Electric Vehicle,
+    helped in designing vehicle networks, delivering the Mule and Development vehicles.
+    I also wrote the Mule Vehicle Display Software (MBD) that shows important information
+    about vehicle speeds, charging, torque requests etc. `
   },
   {
     name: 'Tata Technologies',
     acronym: 'TTL',
     image: tata,
-    fromDate: new Date('December 20, 2020'),
-    toDate: new Date(Date.now()),
+    fromDate: 'Septermber 2018',
+    toDate: 'November 2020',
     role: 'Electronics and Software Systems Engineer',
-    function: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.'
+    function: `Controls (Model Based Design), Tools & Process Development,
+    Automation and Management. Test Development & Validation `,
+    achievements: `I have received awards and compliments by the Caterpillar Core Engines Control
+    team for bringing advancements in automating tests, BoM generation and developing a team's
+    performance tracker using Python. Managed the offshore team in India to ensure regression
+    test scripts are developed and run for every software release to ensure functional safety
+    requirements are met. `
   },
   {
     name: 'Maxon Motor UK',
     acronym: 'MAXON',
     image: maxon,
-    fromDate: new Date('December 20, 2020'),
-    toDate: new Date(Date.now()),
+    fromDate: 'August 2016',
+    toDate: 'November 2016',
     role: 'Technical Support Engineer',
-    function: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.'
+    function: `Support to customers on DC/AC motors, controllers as well as sensors.
+    Testing, repairs, and component return management.`
   },
   {
     name: 'RDM Automotive',
     acronym: 'RDM',
     image: rdmPod,
-    fromDate: new Date('December 20, 2020'),
-    toDate: new Date(Date.now()),
+    fromDate: 'March 2016',
+    toDate: 'June 2016',
     role: 'Graduate Design Engineer',
-    function: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.'
+    function: `Laser sensor calibration, interfacing for data acquisition.
+    Trajectory and path planning for autonomous vehicles. `
   },
   {
     name: 'Coventry University',
     acronym: 'COV',
-    fromDate: new Date('December 20, 2020'),
-    toDate: new Date(Date.now()),
+    fromDate: 'September 2014',
+    toDate: 'September 2015',
     role: 'Project Development and Support Engineer',
-    function: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.'
+    function: 'Embedded Systems',
+    achievements: `GE Energy Connections Prize -
+    Best showcased project. Developing and maintaining Embedded
+    Systems projects, teaching materials. Provision of
+    Lab support at Coventry University.`
   }
 ]

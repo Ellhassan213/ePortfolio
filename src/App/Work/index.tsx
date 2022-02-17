@@ -8,6 +8,7 @@ import { personShadow } from '..'
 import { profFooterContents } from '../../shared/constants/footerContents'
 import useBodyFooterColor from '../../shared/hooks/useBodyFooterColor'
 import { headerCaption } from './workData'
+import { ImWink2 } from 'react-icons/im'
 
 const Work = () => {
   const { bodyColor, footerColor } = useBodyFooterColor()
@@ -26,9 +27,9 @@ const Work = () => {
         caption={headerCaption}
       />
       <Outline>
-        <h1>Heading</h1>
-        <p> My portfolio is just a list of things I hope you never ask me to do.... LOL
-        I am out of bed and dressed. What more do you want? </p>
+        <h1>Yikes!</h1>
+        <p>My portfolio is just a list of things I hope you never ask me to do.... So don&apos;t</p>
+        <ImWink2 />
       </Outline>
       <ShowSelectorNav currentCategory={currentCategory} chooseCategory={chooseCategory} />
       <ShowCategory currentCategory={currentCategory} />
