@@ -21,7 +21,15 @@ export const TextAreaSection = styled.section`
 `
 
 export const ImageContainer = styled.div`
-  margin-top: 1rem;
+  padding: 4rem 0;
+
+  & img {
+    border-radius: 5px;
+  }
+
+  @media screen and (max-width: 50em) {
+    padding: 1rem;
+  }
 `
 
 export const AboutContainer = styled.div<ContentSchemeProps>`

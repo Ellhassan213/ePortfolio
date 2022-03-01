@@ -45,7 +45,8 @@ const ContactMeForm = ({ backgroundColor }: ContactMeFormI) => {
       setIsSubmitting(true)
       setTimeout(() => {
         console.log('Submitted')
-        alert('Form Valid: ' + formValid)
+        // alert('Form Valid: ' + formValid)
+        alert('Thanks for reaching out, I will get back to you shortly.')
         setIsSubmitting(false)
       }, 1000)
     } else {
