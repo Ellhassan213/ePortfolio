@@ -25,6 +25,7 @@ export const ImageContainer = styled.div`
 
   & img {
     border-radius: 5px;
+    width: 100%;
   }
 
   @media screen and (max-width: 50em) {
