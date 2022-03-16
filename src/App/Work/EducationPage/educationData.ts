@@ -27,8 +27,8 @@ export const eduData = [
     dateTo: 'September 2018',
     courseName: 'MSc Robotics and Computation',
     grade: 'Distinction',
-    description: `So first day, there I was looking up, hoping I am not the
-    only black guy in class. Wachira came through, he was the only other one, bless!
+    description: `So first day, there I was looking up, hoping I make instantly make that one friend,
+    Wachira came through bless!
     Immediately went back to  mine after class for a round of shisha.
     On the way back, I asked him... "So what are we aiming to graduate with?"
     We did the fist bump on the distinction. Fast forward to December, my Machine Vision
@@ -44,7 +44,7 @@ export const eduData = [
     courseName: 'BEng Electrical and Electronic Engineering',
     grade: 'First Class',
     description: `Aced it, met my amazing Wife here. So glad I studied this course,
-    even more so at Coventry University. The city was not the best, but we had amazing teachers
+    even more so at Coventry University. The city was not the best, but we had amazing lecturers
     and spectacular facilities. My Friends circle really worked.`
   },
   {
@@ -74,10 +74,8 @@ export const eduData = [
     dateTo: 'January 2005',
     courseName: 'General',
     grade: 'Pass',
-    description: `Do not remember much, I know for sure my performances were awful
+    description: `Don't remember much, I know for sure my performances were awful
     academically up until the last year of school. My parents arranged even more extra,
-    but friendlier lessons for me. However, I was actually the best at football.
-    Oh, I also told a girl I liked her and it was the story of a lifetime. Such a big deal
-    kids could not stop talking about it. I had done the unthinkable!`
+    and friendlier lessons for me. However, I was actually the best at football.`
   }
 ]

@@ -31,7 +31,6 @@ export const ImageContainer = styled.div`
     padding: 1rem;
 
     & img {
-      border-radius: 5px;
       width: 100%;
     }
   }
