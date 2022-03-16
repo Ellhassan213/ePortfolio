@@ -28,8 +28,8 @@ export const eduData = [
     courseName: 'MSc Robotics and Computation',
     grade: 'Distinction',
     description: `So first day, there I was looking up, hoping I instantly make that ONE friend,
-    Wachira came through bless!
-    Immediately went back to  mine after class for a round of shisha.
+    Wachira came through, bless!
+    Immediately went back to  mine after class for a round of shisha (haha).
     On the way back, I asked him... "So what are we aiming to graduate with?"
     We did the fist bump on the distinction. Fast forward to December, my Machine Vision
     lecturer had told me that he was worried about me because I asked an easy / silly question.
@@ -43,7 +43,7 @@ export const eduData = [
     dateTo: 'September 2016',
     courseName: 'BEng Electrical and Electronic Engineering',
     grade: 'First Class',
-    description: `Aced it, met my amazing Wife here. So glad I studied this course,
+    description: `Aced it. So glad I studied this course,
     even more so at Coventry University. The city was not the best, but we had amazing lecturers
     and spectacular facilities. My Friends circle really worked.`
   },
@@ -65,7 +65,7 @@ export const eduData = [
     description: `Boarding School - Crucial stage of my life, here I had to make decisions about who I am,
     who I wanted to be and how I wanted to govern my life. Had the pleasure of meeting and being friends with
     some really great people and the displeasure of meeting some horible ones. This was six years of living
-    in constant anticipation of getting badly beat by seniors or teachers for whatever fucked up reason.
+    in constant anticipation of getting badly beat by seniors or teachers.
     On the flip side, everything I learnt here, especially through islam, has truly saved and made me in many ways.`
   },
   {

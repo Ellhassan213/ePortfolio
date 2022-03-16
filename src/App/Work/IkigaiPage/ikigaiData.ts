@@ -3,11 +3,10 @@ export const ikigaiInfo = {
     title: 'Stuff I LOVE or LIKE to do',
     description: `Probably too broad or abstract, but these are the things I
     find myself most connected to. If I had to rank the Top 3, I would say,
-    it is my Religion that I want to have most success in, because I basically
-    sorts out everything else. Then my peope (selected Family and Friends) and
+    it is my Religion. Then my people (selected Family and Friends) and
     finally, business. For as long as I remember, i've always been into making
     and selling things. And yes, I have tried a few things here and there, but
-    next move need to be on the FASTLANE!!!. Here is the list anyway...`,
+    the next move has to be on the FASTLANE!!!. Here is the list anyway...`,
     list: [
       'Islam',
       'My People',
@@ -24,7 +23,7 @@ export const ikigaiInfo = {
   worldNeeds: {
     title: 'What I think the world needs',
     description: `One might say, who am I to tell the world what it needs?
-    But hey, dont we all need to contribute to make the world a better place?
+    But hey, don't we all need to contribute to make the world a better place?
     Stay tuned, there is definitely more to come from me in this space. for now,
     here are some simple and obvious ideas.`,
     list: [
@@ -37,7 +36,7 @@ export const ikigaiInfo = {
     title: 'I can be paid for these',
     description: `Here is a list of the fields I have predominantly worked in,
     I will bring good expertise generally in Engineering. As for services,
-    I am building businesses that help people on professional journies
+    I am building businesses that help people on professional journeys
     thorughout Higher Education and beyond.`,
     list: [
       'Software Engineering',
@@ -55,18 +54,18 @@ export const ikigaiInfo = {
       'Problem Solving (not engineering)',
       'Adaptable, Flexible',
       'Communication',
-      'Reliable - Getting it done'
+      'Reliable - Getting it done!'
     ]
   },
   mission: {
     title: 'MISSION',
-    description: `My mission truly does revolves around the things that I love doing
+    description: `My mission truly does revolve around the things that I love doing
     and making strides towards achieving what I believe the world needs. Question is,
     how do I fullfill my dreams?`
   },
   vocation: {
     title: 'VOCATION',
-    description: `Could'nt have said it better myself.... “Business is a vocation,
+    description: `Couldn't have said it better myself.... “Business is a vocation,
     and a noble vocation, provided that those engaged in it see themselves challenged
     by a greater meaning in life; this will enable them truly to serve the common good
     by striving to increase the goods of this world and to make them more accessible
@@ -103,16 +102,13 @@ export const ikigaiInfo = {
     description: `Before I get into this, I actually want to add / consider a
     few more things that the traditional Ikigai does not capture.
     Like things I do not like, or things I am not good at and
-    need to improve on. This is gonna help me on my journey.`,
+    need to improve on. This will help me on my journey.`,
     list: [
       `THINGS I AM NOT GOOD AT OR NEED TO IMPROVE: Can always practice my religion
       better. I honestly need to improve my mental math as that's depreciating,
       I need to Read and Read and Read especially about enterpreneurship and
       financial literacy!!!
       I am awful at branding myself and creating professional network.`,
-      `THINGS I DO NOT LIKE: Being an Employee has got to be top of the list,
-      it just goes against everything I believe in as an Enterpreneur. I want
-      to be the PRODUCER.`,
       `WHAT WOULD MAKE MY LIFE BETTER: Autonomy and Location Independence.
       Sources of Income that frees up my time to make the kind of impact
       I envision.`,

@@ -6,13 +6,12 @@ const TextArea = () => {
     <TextAreaSection>
       <h4>Hi, I am Lawal. An Engineer and Enterpreneur based in the UK.</h4>
       <p>
-        I got a massive head (LOL).... and on here, you will find loads about me, what I do and things I am looking
+        Hey... on here, you will find loads about me, what I do and things I am looking
         to get into for the future. I talk about Enterpreneurship, Philanthropy,
         Education Systems and Technology.
       </p>
       <p>
-        Join me on this journey and paint a great future for us and betterment of
-        everybody.
+        Join me on this journey lets paint a great future.
       </p>
       <p> Please feel free to contact me, would be lovely to hear from you.</p>
       <p>Email: <a href="mailto:Ellhassan213@gmail.com">Ellhassan213@gmail.com</a></p>
