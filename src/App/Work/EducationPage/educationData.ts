@@ -27,7 +27,7 @@ export const eduData = [
     dateTo: 'September 2018',
     courseName: 'MSc Robotics and Computation',
     grade: 'Distinction',
-    description: `So first day, there I was looking up, hoping I make instantly make that one friend,
+    description: `So first day, there I was looking up, hoping I instantly make that ONE friend,
     Wachira came through bless!
     Immediately went back to  mine after class for a round of shisha.
     On the way back, I asked him... "So what are we aiming to graduate with?"
