@@ -4,7 +4,7 @@ import { TextAreaSection } from './styles'
 const TextArea = () => {
   return (
     <TextAreaSection>
-      <h4>Hi, I am Lawal. An Engineer and Enterpreneur based in the UK.</h4>
+      <h4>Hi, I am Lawal... An Engineer and Enterpreneur based in the UK.</h4>
       <p>
         Hey... on here, you will find loads about me, what I do and things I am looking
         to get into for the future. I talk about Enterpreneurship, Philanthropy,
