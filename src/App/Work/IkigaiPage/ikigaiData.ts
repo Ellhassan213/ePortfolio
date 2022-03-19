@@ -112,9 +112,6 @@ export const ikigaiInfo = {
       `WHAT WOULD MAKE MY LIFE BETTER: Autonomy and Location Independence.
       Sources of Income that frees up my time to make the kind of impact
       I envision.`,
-      '',
-      '',
-      '',
       `Soooo the IKIGAI.... I am still not there yet, I do not think
       it is as simple as coloring the Venn Diagram. This will be a
       journey. Perhaps I will document this in a Blog, keep your eyes
